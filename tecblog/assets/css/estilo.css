@@ -27,7 +27,7 @@ body {
     padding: 15px;
 }
 
-#aria-pstagens{
+#aria-postagens{
     width: 660px;
     float: left;
 }
@@ -46,4 +46,64 @@ body {
     background-color: #fbf2f2;
     padding: 10px;
     border-bottom: 1px ;
+}
+
+#rodepe{
+    clear: doth;
+    text-align: center;
+    padding: 15px;
+    background-color: #c9c5c5;
+}
+
+/* formataçao do menu*/
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#aria-cabecalho a:link, #aria-cabecalho a:visited{
+    color: #f5f2f2;
+    padding: 8px, 12px;
+}
+
+#aria-cabecalho a:hover{
+    color:#f7b600;
+    background-color: #f5f2f2;
+    text-decoration: none;
+}
+
+/* geral formataçao*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 30px;
+}
+
+h2{
+    color:#f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #fbf2f2;
+    padding: 5px;
+}
+
+.white{
+    color:#f5f2f2;
+
+}
+
+.post-date{
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
 }
