@@ -1,0 +1,109 @@
+/* Limpar a formataçao padrao */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Laytut */
+
+#aria-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#aria-logo, #aria-menu{
+    padding: 10px;
+}
+
+#aria-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#aria-postagens{
+    width: 660px;
+    float: left;
+}
+#aria-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fbf2f2;
+}
+
+.conteudo-lateal{
+    background-color: #fbf2f2;
+    padding: 10px;
+    border-bottom: 1px ;
+}
+
+#rodepe{
+    clear: doth;
+    text-align: center;
+    padding: 15px;
+    background-color: #c9c5c5;
+}
+
+/* formataçao do menu*/
+
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#aria-cabecalho a:link, #aria-cabecalho a:visited{
+    color: #f5f2f2;
+    padding: 8px, 12px;
+}
+
+#aria-cabecalho a:hover{
+    color:#f7b600;
+    background-color: #f5f2f2;
+    text-decoration: none;
+}
+
+/* geral formataçao*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 30px;
+}
+
+h2{
+    color:#f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #fbf2f2;
+    padding: 5px;
+}
+
+.white{
+    color:#f5f2f2;
+
+}
+
+.post-date{
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
