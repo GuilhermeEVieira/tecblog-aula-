@@ -1,4 +1,4 @@
-/* Limpar a formataçao padrao */
+/*Limpar formatação padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,103 +6,96 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #e6e6e6;
+    background-color: #e6e6e6;
 }
 
-/* Laytut */
-
-#aria-cabecalho{
+/* leyout */
+#area-cabecalho {
     background-color: #f7b600;
     padding: 15px;
     text-align: center;
 }
 
-#aria-logo, #aria-menu{
+#area-logo,
+#area-menu {
     padding: 10px;
 }
 
-#aria-principal{
+#area-principal {
     width: 920px;
     margin: 0 auto;
     padding: 15px;
 }
 
-#aria-postagens{
+#area-postagem {
     width: 660px;
     float: left;
 }
-#aria-lateral{
+
+#area-lateral {
     width: 240px;
     float: right;
 }
 
-.postagem{
+.postagem {
     padding: 20px;
     margin-bottom: 20px;
     background-color: #fbf2f2;
 }
 
-.conteudo-lateal{
+.conteudo-lateral {
     background-color: #fbf2f2;
     padding: 10px;
-    border-bottom: 1px ;
+    border-bottom: 1px dotted #c9c5c5;
+
+
 }
 
-#rodepe{
-    clear: doth;
+#roda-pe {
+    clear: both;
     text-align: center;
     padding: 15px;
     background-color: #c9c5c5;
 }
 
-/* formataçao do menu*/
-
-a{
+/* formatação */
+a {
     text-decoration: none;
-}
-a:link, a:visited{
-    color: #f7b600;
+
 }
 
+a:link, a:visited{
+    color:#f7b600;   
+}
 a:hover{
     text-decoration: underline;
 }
 
-#aria-cabecalho a:link, #aria-cabecalho a:visited{
-    color: #f5f2f2;
-    padding: 8px, 12px;
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #fbf2f2;
+    padding: 8px 12px;
 }
 
-#aria-cabecalho a:hover{
+#area-cabecalho a:hover{
     color:#f7b600;
-    background-color: #f5f2f2;
+    background-color: #fbf2f2;
     text-decoration: none;
 }
-
-/* geral formataçao*/
-
 h1{
     color: #4e4e4e;
     font-size: 30px;
 }
-
 h2{
-    color:#f7b600;
-}
-
-h3{
-    color: #565656;
+    color: #f7b600;
     background-color: #fbf2f2;
     padding: 5px;
 }
-
-.white{
-    color:#f5f2f2;
-
+#branco{
+    color: #fbf2f2;
 }
 
-.post-date{
-    font-size: 12px;
+.data-postagem{
+    font-size: 15px;
     margin-bottom: 10px;
     border-bottom: 1px solid #f4f4f4;
     display: block;
